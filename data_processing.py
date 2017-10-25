@@ -19,9 +19,9 @@ for file in dirs:
         student_answer[student_name] = content
         question_mapping[question_number] = student_answer
 
-# for key, value in question_mapping.iteritems():
-#     for k, v in value.iteritems():
-#         print key , " - ", k, " : ", v
+for key, value in question_mapping.iteritems():
+    for k, v in value.iteritems():
+        print key , " - ", k, " : ", v
 
 
 
