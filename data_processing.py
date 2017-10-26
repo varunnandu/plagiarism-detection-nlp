@@ -20,8 +20,9 @@ for file in dirs:
         question_mapping[question_number] = student_answer
 
 # for key, value in question_mapping.iteritems():
+#     print key, " - "
 #     for k, v in value.iteritems():
-#         print key , " - ", k, " : ", v
+#         print k
 
 
 
