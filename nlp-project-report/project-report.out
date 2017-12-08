@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction and Related Work}{}% 1
+\BOOKMARK [1][-]{section.2}{Dataset and Features}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Dataset}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Features}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Word2vec}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Fasttext}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{GloVe}{subsection.2.2}% 7
+\BOOKMARK [1][-]{section.3}{Methods}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Convolution Neural Network \(CNN\)}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Experiments and Results}{}% 10
+\BOOKMARK [1][-]{section.5}{Future work}{}% 11
