@@ -80,10 +80,14 @@ Plagiarism is considered academic dishonesty and a breach of journalistic ethics
 	\section{Dataset and Features} 
 		\subsection{Dataset}
 		 In this study, the freely available Clough-Stevenson corpus \cite{corpus} was applied. The corpus consists of answers to five short questions on a variety of topics in Computer Science field. The five short questions are:
-1. What is inheritance in object oriented programming?
-2. Explain the PageRank algorithm that is used by the Google search engine. 3. Explain the Vector Space Model that is used for Information Retrieval.
-4. Explain Bayes Theorem from probability theory.
-5. What is dynamic programming?
+\begin{description}
+\item	[$\bullet$ ] What is inheritance in object oriented programming?
+\item	[$\bullet$ ] Explain the PageRank algorithm that is used by the Google search engine. 
+\item	[$\bullet$ ] Explain the Vector Space Model that is used for Information Retrieval.
+\item	[$\bullet$ ] Explain Bayes Theorem from probability theory. 
+\item	[$\bullet$ ]What is dynamic programming?
+\end{description}
+
 
 		
 		Each question has 19 students answers and 1 wikipedia answer. We are also given which answers are plagiarised. There are four different types of answers. They are cut, light, non and heavy. Cut refers to answers that are cut, copy, pasted from wikipedia answer. Heavy refers to answers that are heavily copied from wikipedia answers, light refers to answers which are slightly copied from wikipedia answers with extreme changes to the structure of answers. Non refers to non plagiarised work. We can view this in the table given below.
@@ -144,7 +148,6 @@ Rather than defining groups before looking at the data, clustering allows you to
 The k-means clustering algorithm uses iterative refinement to produce a final result. The algorithm inputs are the number of clusters 'k' and the data set. The data set is a collection of features for each data point. The algorithms starts with initial estimates for the 'k' centroids, which can either be randomly generated or randomly selected from the data set. The algorithm then iterates between two steps:
 
 1. Data assigment step:
-
 Each centroid defines one of the clusters. In this step, each data point is assigned to its nearest centroid, based on the squared Euclidean distance. More formally, if ci is the collection of centroids in set C, then each data point x is assigned to a cluster based on
 
 $$\underset{c_i \in C}{\arg\min} \; dist(c_i,x)^2$$
@@ -152,7 +155,6 @@ $$\underset{c_i \in C}{\arg\min} \; dist(c_i,x)^2$$
 where dist( · ) is the standard (L2) Euclidean distance. Let the set of data point assignments for each ith cluster centroid be Si.
 
 2. Centroid update step:
-
 In this step, the centroids are recomputed. This is done by taking the mean of all data points assigned to that centroid's cluster.
 
 $$c_i=\frac{1}{|S_i|}\sum_{x_i \in S_i x_i}$$
@@ -222,7 +224,7 @@ The table below shows the plagiarised task and student names obtained form our a
 	
 	Thus we got some decent results. Although, not absolutely great, the results were better than the previous methods we discussed. For example the Plagiarism Detection using n-gram method had a precision of 47\%. Our precision as can be seen above is much higher than that.  
 	\section{Future work}
-	Many methods have been proposed to detect and stop plagiarism. But, still there are many questions which are to be answered. Natural Language Processing has greater possibilities of providing a sound and concrete mechanism which is capable of detecting plagiarism in any document. In this report we have tried to show finding plagiarism  using FP-growth with its advantages. We have developed a system based on principles of vector representations. As an extension to this work, we can include vector representations using other techniques such as word2vec.  Another future work is to change the domain from documents to programming. In programming, we would need stricter noise removal as well as the support count of FP-growth algorithm will increase.
+	Many methods have been proposed to detect and stop plagiarism. But, still there are many questions which are to be answered. Natural Language Processing has greater possibilities of providing a sound and concrete mechanism which is capable of detecting plagiarism in any document. In this report we have tried to show finding plagiarism using FP-growth with its advantages. We have developed a system based on principles of vector representations. As an extension to this work, we can include vector representations using other techniques such as word2vec.  Another future work is to change the domain from documents to programming. In programming, we would need stricter noise removal as well as the support count of FP-growth algorithm will increase.
 	
 	
 	\begin{thebibliography}{99}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.12)  10 DEC 2017 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.12)  10 DEC 2017 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,66 +320,65 @@ Package pdftex.def Info: NU_logo.png used on input line 47.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./NU_lo
-go.png>] [1]
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+go.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
+) [1] [2]
 Missing character: There is no   in font cmr10!
 
-<k-means-process.jpeg, id=20, 541.02126pt x 420.57124pt>
+<k-means-process.jpeg, id=21, 541.02126pt x 420.57124pt>
 File: k-means-process.jpeg Graphic file (type jpg)
 
 <use k-means-process.jpeg>
-Package pdftex.def Info: k-means-process.jpeg used on input line 137.
+Package pdftex.def Info: k-means-process.jpeg used on input line 141.
 (pdftex.def)             Requested size: 541.01993pt x 420.57022pt.
 
-Overfull \hbox (97.44145pt too wide) in paragraph at lines 137--138
+Overfull \hbox (97.44145pt too wide) in paragraph at lines 141--142
  [][] 
  []
 
 Missing character: There is no · in font cmr10!
 [3] [4 <./k-means-process.jpeg>] [5]
 Missing character: There is no   in font cmr10!
-Missing character: There is no   in font cmr10!
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 []\OT1/cmr/m/n/10.95 P. Clough and M. Steven-son. ?De-vel-op-ing a Cor-pus of P
 la-gia-rized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \OT1/cmr/m/n/10.95 Short An-swers, Lan-guage Re-sources and Eval-u-a-tion: Spe-
 cial Is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \OT1/cmr/m/n/10.95 sue on Pla-gia-rism and Au-thor-ship Anal-y-sis, In Press.? 
 In-ter-net:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 \OT1/cmr/m/n/10.95 http://ir.shef.ac.uk/cloughie/resources/plagiarismcorpus.htm
 l/Download, Sep. 10,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []\OT1/cmr/m/n/10.95 https://www.researchgate.net/profile/Christian-Borgelt/pub
 lication/234774858-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 \OT1/cmr/m/n/10.95 keeping-things-simple-Finding-frequent-item-sets-by-recursiv
 e-
  []
@@ -392,7 +391,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3159 strings out of 492995
  43069 string characters out of 6132704
- 113297 words of memory out of 5000000
+ 114297 words of memory out of 5000000
  6648 multiletter control sequences out of 15000+600000
  12008 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -411,7 +410,7 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project-report.pdf (8 pages, 272745 bytes).
+Output written on project-report.pdf (8 pages, 272768 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
