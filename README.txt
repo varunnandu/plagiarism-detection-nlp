@@ -19,5 +19,3 @@ The third file named corpus_final.xls is a list of classification of our files l
 After performing the above three steps make sure to click on kernel and the click on restart and run all cells. This will make sure that the code is executed in front of you and that it is working. 
 
 You will also need all the imports to be installed on your system to run the file. 
-
-I am providing all the files on blackboard but just in case theres some error, you can also download it from our GitHub . https://github.com/varunnandu/plagiarism-detection-nlp
